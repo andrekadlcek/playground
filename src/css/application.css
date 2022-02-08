@@ -1,0 +1,14 @@
+@custom-media --header-desktop-viewport (min-width: 900px);
+@custom-media --header-device-viewport (max-width: 900px);
+
+html, body{
+    height: 100%;
+}
+body{
+    @apply flex flex-col text-gray-900;
+}
+
+
+
+@import './pages/home'
+
